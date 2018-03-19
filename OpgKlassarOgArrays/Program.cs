@@ -14,6 +14,9 @@ namespace OpgKlassarOgArrays
             YatzyBæger yatzyBæger = new YatzyBæger();
             yatzyBæger.Ryst();
             yatzyBæger.Skriv();
+            yatzyBæger.Skriv();
+            yatzyBæger.Ryst();
+            yatzyBæger.Skriv()
             Console.ReadKey();
             
         }

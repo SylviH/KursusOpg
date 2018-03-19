@@ -37,8 +37,15 @@ namespace OpgKlassarOgArrays
         {
             foreach (var item in this.terninger)
             {
+                
                 item.Skriv();
                 Console.WriteLine();
+                if (item.Værdi == 5)
+                {
+                    Console.WriteLine("*********");
+                }
+                
+                
             }
         }
     }
